@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+width: 1100px;
+margin: 0px auto;
+border: 2px solid red;
+}
+
+header{
+    background: blue;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+nav{
+    background: white;
+    height: 100px;
+    border-bottom: 3px solid blue;
+}
+
+nav ul li{
+    margin: 5px;
+    color: blue;
+}
+
+.clearfix{
+    clear:booth;
+}
+
+#content{
+    background: red;
+}
+
+footer{
+    background: blue;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.article{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid blue;
+}
